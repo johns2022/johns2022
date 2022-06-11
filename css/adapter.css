@@ -1,0 +1,15 @@
+@media (min-width:666px){.hide-desktop{display:none!important}}
+@media (max-width:666px){.hide-mobile{display:none!important}}
+body{margin: 0px;}
+@font-face {
+    font-family: Furore;
+    src: url("../fonts/Furore.otf");
+}
+@font-face {
+    font-family: Number;
+    src: url("../fonts/Number.ttf");
+}
+@font-face {
+    font-family: Title;
+    src: url("../fonts/Title.ttf");
+}
