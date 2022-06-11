@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>district42</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"/>
+</head>
+<style>
+    html, body {
+        width: 100%;
+        background-color: #000;
+    }
 
-You can use the [editor on GitHub](https://github.com/johns2022/u5web.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    .ComingSoonDivCss {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        z-index: 900;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+    }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    .ComingSoonCss {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.9);
+        width: 1764px;
+        height: 610px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 23px;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 10;
+        border-radius: 5px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: url(tips/bg.png);
+        background-repeat: no-repeat;
+    }
 
-### Markdown
+</style>
+<body>
+<div class="body-content">
+    <div class="ComingSoonCss hide-mobile">
+        <div style="display:flex">
+            <div style="padding: 25px 0px 0px 200px;">
+                <img src="tips/icon.png">
+            </div>
+            <div style="display:flex;flex-direction:column;padding: 0px 300px 0px 0px;justify-content: center;">
+                <div style="font-size: 60px; font-weight: bold;line-height: 100px">
+                    UNDER CONSTRUCTION!
+                </div>
+                <div style="font-size: 35px;font-weight: bold; line-height: 50px">
+                    This is web site is down for manintenance!
+                </div>
+                <div style="font-size: 24px; line-height: 35px">
+                    We are working on the database will beback in a jiffy. Stay in with us or some other info can be
+                    added here.
+                </div>
+            </div>
+        </div>
+        <div style="width:483px; height:139px;display: flex;flex-direction: column;justify-content: center;">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johns2022/u5web.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        </div>
+    </div>
+</div>
+</body>
+</html>
